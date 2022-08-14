@@ -1,5 +1,5 @@
 import React from "react";
-import { HeaderContainer, HeaderLogo } from "./HeaderElemets";
+import { HeaderContainer } from "../Container/Container";
 import Logo from "./Logo/Logo";
 import Navbar from "./Navbar/Navbar";
 import Icons from "./Icons/Icons";
@@ -8,9 +8,7 @@ const Header = () => {
   return (
     <header className="headerContainer">
       <HeaderContainer>
-        <HeaderLogo>
-          <Logo />
-        </HeaderLogo>
+        <Logo />
         <Navbar />
         <Icons />
       </HeaderContainer>

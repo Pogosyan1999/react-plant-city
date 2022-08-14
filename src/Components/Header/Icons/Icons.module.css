@@ -1,6 +1,6 @@
 .active{
-     width:200px !important;
-     transition: .3s;
-     visibility: visible !important;
-     height:30px !important;
+    display:block !important;
 }
+
+
+   

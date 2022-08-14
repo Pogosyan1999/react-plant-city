@@ -1,23 +1,33 @@
-.headerContainer{
+.headerContainer {
   width: 100%;
-  height: 100px;
+  height: auto;
   background-color: var(--color-white);
-  position: sticky;
+  padding: 20px 0 ;
+
+  z-index: 1000;
 }
 
-a{
+.footerContainer{
+  width:100%;
+  padding: 50px 0;
+  background: #F5F3F3;
+}
+
+a {
   text-decoration: none;
 }
 
-
-a:hover{
-  color:var(--color-light-green);
-  transition:.5s;
+a:hover {
+  color: var(--color-light-green);
+  transition: 0.5s;
 }
 
-.ShopLink:hover{
+.ShopLink:hover {
   background-color: var(--color-light-green);
-  color:var(--color-black);
-  transition: .5s;
+  color: var(--color-black);
+  transition: 0.5s;
 }
+
+
+
 
