@@ -1,6 +1,7 @@
 import img1 from './ship.svg';
 import img2 from './pig.svg';
 import img3 from './support.svg';
+import img4 from './present.svg';
 
 export const SectionTwoItems = [
     {
@@ -22,5 +23,12 @@ export const SectionTwoItems = [
         title:'Customer Center',
         src:img3,
         text:'24/7 Online Solution'
+      },
+
+      {
+        id:4,
+        title:'Quality Support',
+        src:img4,
+        text:'Online Feedback 24/7'
       },
 ]

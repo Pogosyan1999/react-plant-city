@@ -1,0 +1,11 @@
+{
+  "flowers": [
+    {
+      "id:":1,
+      "img_url":"../public/img/image8.svg",
+      "title":"Fastest Delivery",
+      "price":"€104.86 €83.89"
+
+    }
+  ]
+}

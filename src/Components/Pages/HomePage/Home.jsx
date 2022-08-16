@@ -1,5 +1,6 @@
 import React from 'react';
 import Background from './BackgroundSection/Background';
+import Flowers from './Flowers/Flowers';
 import SectionTwo from './Section2/SectionTwo';
 
 const Home = () => {
@@ -7,6 +8,8 @@ const Home = () => {
     <>
       <Background/>
       <SectionTwo/>
+      <Flowers/>
+   
     </>
   )
 }

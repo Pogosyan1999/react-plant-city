@@ -9,7 +9,7 @@ const SectionTwo = () => {
       {
         SectionTwoItems.map((item)=>{
             return(
-                <Block>
+                <Block key = {item.id}>
                     <Img src = {item.src} alt = 'img'/>
                     <Title>{item.title}</Title>
                     <Text>{item.text}</Text>
