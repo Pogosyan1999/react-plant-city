@@ -6,6 +6,7 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+
   
   @media only screen and (max-width:899px) {
     flex-wrap: wrap;

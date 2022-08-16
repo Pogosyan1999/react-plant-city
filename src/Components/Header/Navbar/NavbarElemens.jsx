@@ -4,6 +4,7 @@ import { NavLink as Links } from "react-router-dom";
 export const NavBar = styled.nav`
   width: 100%;
   heiight: 100%;
+  
 
   @media only screen and (max-width: 899px) {
     order: 3;
@@ -26,6 +27,7 @@ export const NavList = styled.ul`
   display: flex;
   justify-content: end;
   align-items: center;
+  background:#fff;
 
   @media (min-width: 900px) and (max-width: 991px) {
     justify-content: center;
@@ -43,6 +45,7 @@ export const NavItem = styled.li`
     width: 100%;
     text-align: center;
     margin: 10px 0;
+    
   }
 `;
 
@@ -118,17 +121,13 @@ export const NavbarButton = styled.button`
     top:37px;
   }
 
-  @media (min-width: 360px) and (max-width: 499px) {
+  @media (min-width: 320px) and (max-width: 499px) {
     font-size: 13px;
     right: 10px;
-    top:28px;
+   
   }
 
-  @media (min-width: 320px) and (max-width: 359px) {
-    font-size: 13px;
-    right: 10px;
-    top:28px;
-  } ;
+  
 `;
 
 export const MobileNavbar = styled.div`

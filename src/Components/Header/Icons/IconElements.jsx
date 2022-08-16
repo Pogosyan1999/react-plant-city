@@ -240,6 +240,7 @@ margin-top:-5px;
 position: absolute;
 top:100px;
 display:none;
+z-index:-1;
 
 @media (min-width: 900px) and (max-width: 991px){
   width:160px;
@@ -258,7 +259,7 @@ display:none;
  }
 
  @media (min-width: 500px) and (max-width: 639px){
-  width:77%;
+  width:70%;
  }
 
  @media (min-width: 414px) and (max-width: 439px){
