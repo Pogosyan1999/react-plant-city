@@ -2,6 +2,7 @@ import React from 'react';
 import Background from './BackgroundSection/Background';
 import Flowers from './Flowers/Flowers';
 import SectionTwo from './Section2/SectionTwo';
+import Shopping from './Shopping/Shopping';
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Background/>
       <SectionTwo/>
       <Flowers/>
+      <Shopping/>
    
     </>
   )

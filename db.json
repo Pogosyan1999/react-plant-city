@@ -2,10 +2,233 @@
   "flowers": [
     {
       "id:":1,
-      "img_url":"../public/img/image8.svg",
+      "img_url":"img/image1.svg",
       "title":"Fastest Delivery",
       "price":"€104.86 €83.89"
+    },
 
+    {
+      "id:":2,
+      "img_url":"img/image2.svg",
+      "title":"Exercitat Virginia",
+      "price":"€87.00"
+    },
+
+    {
+      "id:":3,
+      "img_url":"img/image3.svg",
+      "title":"Accusantium Doloremque",
+      "price":"€110.00"
+    },
+
+    {
+      "id:":4,
+      "img_url":"img/image4.svg",
+      "title":"Voluptas Assumenda",
+      "price":"€78.00"
+    },
+
+    {
+      "id:":5,
+      "img_url":"img/image5.svg",
+      "title":"Nostrud Exercitation",
+      "price":"€104.86 €83.89"
+    },
+
+
+    {
+      "id:":6,
+      "img_url":"img/image6.svg",
+      "title":"Commodi Consequatur",
+      "price":"€85.00"
+    },
+
+    {
+      "id:":7,
+      "img_url":"img/image7.svg",
+      "title":"Praesentium Voluptatum",
+      "price":"€105.00"
+    },
+
+    {
+      "id:":8,
+      "img_url":"img/image8.svg",
+      "title":"Voluptates Repudiandae",
+      "price":"€104.86 €83.89"
+    },
+
+    {
+      "id:":9,
+      "img_url":"img/image1.svg",
+      "title":"Fastest Delivery",
+      "price":"€104.86 €83.89"
+    },
+
+    {
+      "id:":10,
+      "img_url":"img/image2.svg",
+      "title":"Exercitat Virginia",
+      "price":"€87.00"
+    },
+
+    {
+      "id:":11,
+      "img_url":"img/image3.svg",
+      "title":"Accusantium Doloremque",
+      "price":"€110.00"
+    },
+
+    {
+      "id:":12,
+      "img_url":"img/image4.svg",
+      "title":"Voluptas Assumenda",
+      "price":"€78.00"
+    },
+
+    {
+      "id:":13,
+      "img_url":"img/image5.svg",
+      "title":"Nostrud Exercitation",
+      "price":"€104.86 €83.89"
+    },
+
+
+    {
+      "id:":14,
+      "img_url":"img/image6.svg",
+      "title":"Commodi Consequatur",
+      "price":"€85.00"
+    },
+
+    {
+      "id:":15,
+      "img_url":"img/image7.svg",
+      "title":"Praesentium Voluptatum",
+      "price":"€105.00"
+    },
+
+    {
+      "id:":16,
+      "img_url":"img/image8.svg",
+      "title":"Voluptates Repudiandae",
+      "price":"€104.86 €83.89"
+    },
+
+    {
+      "id:":17,
+      "img_url":"img/image1.svg",
+      "title":"Fastest Delivery",
+      "price":"€104.86 €83.89"
+    },
+
+    {
+      "id:":18,
+      "img_url":"img/image2.svg",
+      "title":"Exercitat Virginia",
+      "price":"€87.00"
+    },
+
+    {
+      "id:":19,
+      "img_url":"img/image3.svg",
+      "title":"Accusantium Doloremque",
+      "price":"€110.00"
+    },
+
+    {
+      "id:":20,
+      "img_url":"img/image4.svg",
+      "title":"Voluptas Assumenda",
+      "price":"€78.00"
+    },
+
+    {
+      "id:":21,
+      "img_url":"img/image5.svg",
+      "title":"Nostrud Exercitation",
+      "price":"€104.86 €83.89"
+    },
+
+
+    {
+      "id:":22,
+      "img_url":"img/image6.svg",
+      "title":"Commodi Consequatur",
+      "price":"€85.00"
+    },
+
+    {
+      "id:":23,
+      "img_url":"img/image7.svg",
+      "title":"Praesentium Voluptatum",
+      "price":"€105.00"
+    },
+
+    {
+      "id:":24,
+      "img_url":"img/image8.svg",
+      "title":"Voluptates Repudiandae",
+      "price":"€104.86 €83.89"
+    },
+
+    {
+      "id:":25,
+      "img_url":"img/image1.svg",
+      "title":"Fastest Delivery",
+      "price":"€104.86 €83.89"
+    },
+
+    {
+      "id:":26,
+      "img_url":"img/image2.svg",
+      "title":"Exercitat Virginia",
+      "price":"€87.00"
+    },
+
+    {
+      "id:":27,
+      "img_url":"img/image3.svg",
+      "title":"Accusantium Doloremque",
+      "price":"€110.00"
+    },
+
+    {
+      "id:":28,
+      "img_url":"img/image4.svg",
+      "title":"Voluptas Assumenda",
+      "price":"€78.00"
+    },
+
+    {
+      "id:":29,
+      "img_url":"img/image5.svg",
+      "title":"Nostrud Exercitation",
+      "price":"€104.86 €83.89"
+    },
+
+
+    {
+      "id:":30,
+      "img_url":"img/image6.svg",
+      "title":"Commodi Consequatur",
+      "price":"€85.00"
+    },
+
+    {
+      "id:":31,
+      "img_url":"img/image7.svg",
+      "title":"Praesentium Voluptatum",
+      "price":"€105.00"
+    },
+
+    {
+      "id:":32,
+      "img_url":"img/image8.svg",
+      "title":"Voluptates Repudiandae",
+      "price":"€104.86 €83.89"
     }
+
+
+
   ]
 }

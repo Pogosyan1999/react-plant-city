@@ -3,10 +3,10 @@ import {
   Section,
   Container,
   Text,
-  Title,
   Button,
   LinkContainer,
 } from "./BackgroundStyle";
+import { Title } from "../../Title/TitleStyle";
 
 const Background = () => {
   return (

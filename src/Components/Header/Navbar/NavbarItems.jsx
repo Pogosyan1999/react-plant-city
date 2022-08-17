@@ -18,7 +18,7 @@ export const NavbarItems  = [
     },
 
     {
-        id:4,
+        id:'/Blog',
         url:'#',
         text:'Blog'
     },

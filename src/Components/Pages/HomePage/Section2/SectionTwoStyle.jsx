@@ -74,7 +74,7 @@ export const Title  = styled.h4`
 `;
 
 
-export const Text  = styled.p`
+export const P  = styled.p`
   font-size:18px;
   color:#9c9c9c;
   margin:10px auto;

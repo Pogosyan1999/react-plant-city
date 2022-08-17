@@ -1,7 +1,9 @@
 import React from 'react';
 import { Container } from '../../../Container/Container';
 import { SectionTwoItems } from './SectionTwoItems';
-import { Block, Img, Title,Text } from './SectionTwoStyle';
+import { Block, Img ,P} from './SectionTwoStyle';
+import { Text } from "../../Text/TextStyle";
+
 
 const SectionTwo = () => {
   return (
@@ -11,8 +13,8 @@ const SectionTwo = () => {
             return(
                 <Block key = {item.id}>
                     <Img src = {item.src} alt = 'img'/>
-                    <Title>{item.title}</Title>
-                    <Text>{item.text}</Text>
+                    <Text>{item.title}</Text>
+                    <P>{item.text}</P>
                 </Block>
             )
         })

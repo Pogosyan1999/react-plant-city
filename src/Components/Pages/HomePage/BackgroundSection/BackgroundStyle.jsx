@@ -69,7 +69,6 @@ export const Container = styled.div`
     padding-top:60px;
   }
 
- 
 
 
 `;
@@ -179,8 +178,6 @@ export const Title = styled.h2`
     font-weight:400
   }
 
-
-  
 `;
 
 export const LinkContainer = styled.div`
@@ -198,7 +195,7 @@ export const LinkContainer = styled.div`
   @media only screen and (max-width:660px){
   padding-top:0;
   }
-`
+`;
 
 export const Button = styled(Links)`
   width: 219px;
