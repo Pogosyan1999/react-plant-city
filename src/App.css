@@ -28,6 +28,18 @@ a:hover {
   transition: 0.5s;
 }
 
+.slick-dots{
+  display:none !important;
+}
+
+.slick-arrow {
+  margin-top: -200px !important;
+}
+
+
+
+
+
 
 
 

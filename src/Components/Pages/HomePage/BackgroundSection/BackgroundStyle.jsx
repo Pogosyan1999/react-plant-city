@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img from "./bg.svg";
+import img from "./bg.png";
 import { Link as Links } from "react-router-dom";
 
 export const Section = styled.section`
