@@ -1,31 +1,31 @@
 export const NavbarItems  = [
     {
         id:1,
-        url:'#',
+        url:'/greenplant',
         text:'Green Plant'
     },
 
     {
         id:2,
-        url:'#',
+        url:'/giftplant',
         text:'Gift Plant'
     },
 
     {
         id:3,
-        url:'#',
+        url:'/indoorplant',
         text:'Indoor Plants'
     },
 
     {
-        id:'/Blog',
-        url:'#',
+        id:4,
+        url:'/Blog',
         text:'Blog'
     },
 
     {
         id:5,
-        url:'#',
+        url:'/More',
         text:'More'
     },
 ];

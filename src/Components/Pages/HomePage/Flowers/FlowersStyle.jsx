@@ -42,14 +42,9 @@ export const Title = styled.h3`
     font-size:14px;
   }
 
-  @media only screen and (max-width:375px){
-    font-size:13px;
-  }
 
-  @media only screen and (max-width:320px){
-    font-size:12px;
-    font-weight:400
-  }
+
+ 
 `;
 
 // tab css //
@@ -60,6 +55,34 @@ export const Tab = styled.div`
  justify-content:center;
  
 `;
+export const Text  = styled.h4`
+  font-size:22px;
+  color:var(--color-black);
+  color: ${props => props.white ? "white" : "var(--color-black)"};
+  font-weight:600;
+  margin: ${props => props.start ? "10px 0" : "10px auto"};
+  width:max-content;
+
+  @media only screen and (max-width:1180px){
+   font-size:18px;
+  }
+
+  @media only screen and (max-width:1138px){
+    font-size:18px;
+   }
+
+   @media only screen and (max-width:960px){
+    font-size:16px;
+   }
+
+   @media only screen and (max-width:660px){
+    font-size:15px;
+   }
+
+   @media only screen and (max-width:320px){
+    font-size:14px;
+   }
+   `;
 
 export const TabItem = styled.div`
    width:max-content;
@@ -70,6 +93,21 @@ export const TabItem = styled.div`
    &:hover{
     color:var(--color-light-green);
     transition:.5s;
+   }
+
+   @media only screen and (max-width:992px) {
+    font-size:18px;
+   }
+
+   @media only screen and (max-width:800px) {
+    font-size:16px;
+   }
+   @media only screen and (max-width:712px) {
+    font-size:15px;
+   }
+
+   @media only screen and (max-width:660px) {
+    font-size:13px;
    }
 `;
 
@@ -87,6 +125,8 @@ export const Block = styled.div`
 
  @media only screen and (max-width:900px){
   width:30%;
+  margin-top:10px;
+
  }
 
  @media only screen and (max-width:768px){

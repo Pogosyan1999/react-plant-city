@@ -1,8 +1,8 @@
 import React from 'react';
-import { BgSection, Block, H5, ImgContainer, Section, Img, P } from './ChooseStyle';
+import { BgSection, Title, Block, H5, ImgContainer, Section, Img, P } from './ChooseStyle';
 import { ChooseItems } from './ChooseItems';
 import { Container } from '../../../Container/Container';
-import { Title } from '../../Title/TitleStyle';
+
 
 const Choose = () => {
     return (

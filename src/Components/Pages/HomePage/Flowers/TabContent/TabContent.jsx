@@ -1,10 +1,10 @@
 import { Container } from "../../../../Container/Container";
 import React, { useState, useEffect } from "react";
-import { Block, Img, Star,  Price } from "../FlowersStyle";
-import {Text} from '../../../Text/TextStyle'
+import { Block, Img, Star,  Price,Text } from "../FlowersStyle";
 import axios from "axios";
 import StarRating from "../Rating/Rating";
 import { Link } from "react-router-dom";
+
 
 const TabContent = () => {
   const [flowers, setFlowers] = useState([]);
@@ -13,7 +13,7 @@ const TabContent = () => {
     axios
       .get("http://localhost:3500/flowers")
       .then((res) => setFlowers(res.data))
-      .catch((err) => console.log(err));
+      .catch((err) = err);
   }, []);
 
   return (
@@ -22,7 +22,7 @@ const TabContent = () => {
         return (
           <Block key={index}>
             <Link to="#">
-              <Img src={item.img_url} alt="img" />
+              <Img src={item.img_url} onClick={()=>getImg(item.img_url)} alt="img" />
             </Link>
             <Star>
               <StarRating />

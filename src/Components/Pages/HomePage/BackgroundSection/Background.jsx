@@ -5,8 +5,9 @@ import {
   Text,
   Button,
   LinkContainer,
+  Title
 } from "./BackgroundStyle";
-import { Title } from "../../Title/TitleStyle";
+
 
 const Background = () => {
   return (
