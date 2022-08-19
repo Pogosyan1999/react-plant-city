@@ -13,7 +13,7 @@ const TabContent = () => {
     axios
       .get("http://localhost:3500/flowers")
       .then((res) => setFlowers(res.data))
-      .catch((err) = err);
+      .catch((err) => err);
   }, []);
 
   return (
@@ -22,7 +22,7 @@ const TabContent = () => {
         return (
           <Block key={index}>
             <Link to="#">
-              <Img src={item.img_url} onClick={()=>getImg(item.img_url)} alt="img" />
+              <Img src={item.img_url}  alt="img" />
             </Link>
             <Star>
               <StarRating />
